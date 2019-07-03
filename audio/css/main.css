@@ -717,7 +717,7 @@ blockquote cite {
 }
 
 .tweet {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 300;
   color: #fff;
 }
@@ -848,9 +848,10 @@ blockquote cite {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   transition: all 0.2s ease-in-out;
   z-index: 2;
+  display: block;
 }
 
-.chat-btn.fixed { display: none; }
+.chat-btn.fixed { display: block; }
 
 .chat-btn:hover {
   -webkit-transform: scale(1.1);
@@ -1023,7 +1024,7 @@ blockquote::before {
 
 .team h5 { margin: 0 !important; }
 
-.tweet { font-size: 23px; }
+.tweet { font-size: 32px; }
 
 .sub-form .btn { padding: 1em 2em; }
 
