@@ -9,7 +9,7 @@ $(function() {
 
     $('#mc-form').ajaxChimp({
         language: 'cm',
-        url: 'http://csmthemes.us3.list-manage.com/subscribe/post?u=9666c25a337f497687875a388&id=5b881a50fb'
+        url: 'https://sae.us2.list-manage.com/subscribe/post?u=95fb27315ff4ae984287de1d0&amp;id=2c1f5890e4'
             //http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
     });
 

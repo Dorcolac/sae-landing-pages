@@ -306,6 +306,11 @@ transform:translateY(0);
 .section-spacing.tour,
 .section-spacing.site-footer { padding: 3.75em 0; }
 
+.twitter-feed.section-spacing.text-center {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
 .featured-on .section-header { margin-bottom: 1.5em; }
 
 .featured-sites li { padding: 0 3em 1.5em; }
