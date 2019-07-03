@@ -344,8 +344,7 @@ transform:translateY(0);
    
 .features { overflow-x: hidden; }
 
-.features div[class="row"]:nth-child(1),
-.features div[class="row"]:nth-child(2) { margin-bottom: 3em; }
+.features div[class="row"] { margin-bottom: 3em; }
 
 .features article { margin-top: 1.5em; }
 
@@ -370,7 +369,7 @@ transform:translateY(0);
   padding-right: .5em;
 }
 
-.features div[class="row"]:nth-child(3) .col-md-4 article { margin-bottom: 1.5em; }
+.features div[class="row"]:last-of-type .col-md-4 article { margin-bottom: 1.5em; }
 
 /* ==========================================================================
    8.video tour
@@ -1080,8 +1079,7 @@ blockquote::before {
 
 .contact.section-spacing { padding: 6em 0 0; }
 
-.features div[class="row"]:nth-child(1),
-.features div[class="row"]:nth-child(2) { margin-bottom: 7.5em; }
+.features div[class="row"] { margin-bottom: 7.5em; }
 
 .features article { margin-top: 6em; }
 
@@ -1093,7 +1091,7 @@ blockquote::before {
   left: 22px;
 }
 
-.features div[class="row"]:nth-child(2) .col-md-7 img { left: -277px; }
+.features div[class="row"]:nth-child(even) .col-md-7 img { left: -277px; }
 
 .featured-sites li { padding: 0 3em; }
 
