@@ -174,15 +174,15 @@ $('.contact-form form').submit(function(e) {
    ========================================================================== */
 
 
-$('.sub-form').waypoint(function() {
-$('.chat-btn').addClass('fixed');
+// $('.sub-form').waypoint(function() {
+// $('.chat-btn').addClass('fixed');
 
-}, {
-offset: '60%'
+// }, {
+// offset: '60%'
 
-});
-
-
+// });
 
 
-});
+
+
+// });
