@@ -842,6 +842,11 @@ blockquote cite {
 
 .footer-links a:first-child { padding-right: .4em; }
 
+@keyframes button-flash {
+  from { background-size: 60%; }
+  to { background-size: 50%;}
+}
+
 .chat-btn {
   width: 80px;
   height: 80px;
@@ -855,6 +860,8 @@ blockquote cite {
   transition: all 0.2s ease-in-out;
   z-index: 2;
   display: block;
+  animation: button-flash .6s 10;
+  -webkit-animation: button-flash .6s 10;
 }
 
 .chat-btn { display: block; }
