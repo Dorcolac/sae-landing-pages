@@ -51,7 +51,7 @@ $(function() {
         var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',');
 
         $('.total-number-1').animateNumber({
-            number: 54, //change value here
+            number: 47, //change value here
             numberStep: comma_separator_number_step
         }, 3000);
 
