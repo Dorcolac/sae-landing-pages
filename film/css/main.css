@@ -1147,3 +1147,7 @@ blockquote::before {
 
 .features img { width: 820px; }
 }
+
+.italic {
+  font-style: italic;
+}
